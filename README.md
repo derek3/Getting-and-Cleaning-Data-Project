@@ -15,7 +15,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The following procedures were followed to extract and summarize the means and standard deviations of 81 categories of
 measurements compiled by the researchers of the study at the UC Irvine Machine Learning Repository in 2012.
 
-Basic steps taken to prepare the data for use in the run_analyis.R file:
+Basic steps taken to prepare the data for use in the run_analysis.R file:
 - Downloaded Zip file and saved to R’s default data directory
 - Merged the training and tested together to create a single dataset for processing and analysis
 - Extracted only the measurements on the mean and standard deviation for each measurement
