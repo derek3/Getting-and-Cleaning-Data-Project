@@ -16,13 +16,13 @@ The following procedures were followed to extract and summarize the means and st
 measurements compiled by the researchers of the study at the UC Irvine Machine Learning Repository in 2012.
 
 Basic steps taken to prepare the data for use in the run_analyis.R file:
-- Download Zip file and save to R’s default data directory
-- Merge the training and test together to create a single dataset for processing and analysis
-- Extract only the measurements on the mean and standard deviation for each measurement
+- Downloaded Zip file and saved to R’s default data directory
+- Merged the training and tested together to create a single dataset for processing and analysis
+- Extracted only the measurements on the mean and standard deviation for each measurement
 ** Assumption**  - it was assumed that measurements containing the word ‘mean’ were means (i.e. not just 
 those whose descriptions ended with the word mean, such as 'fBodyAcc-meanFreq()'
-- Alter the column names to use better descriptions and conform to R naming standards
-4.Appropriately labels the data set with descriptive variable names. 
-5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
+- Altered the column names to use better descriptions and conform to R naming standards
+- Changed the activities to show the descriptions rather than numbers
+- Created a tidy data set as the output using the average of each of the columns in the dataset
+ 
 
