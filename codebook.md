@@ -81,7 +81,7 @@ Script variables explained
 	subjects_combined - combined test and training subject lists
    
 	features_renamed - used to apply measurements names to numbered results columns in original data
-  std_combined - list of columns containing standard devations mesures
-  mean_combined  list of columns containing means mesures
-  mean_stddev_dataset  - dataset of only means and standard deviation measurments
-  summary_dataset - tidy dataset of measurements returned by the function
+	std_combined - list of columns containing standard devations mesures
+	mean_combined  list of columns containing means mesures
+	mean_stddev_dataset  - dataset of only means and standard deviation measurments
+	summary_dataset - tidy dataset of measurements returned by the function
